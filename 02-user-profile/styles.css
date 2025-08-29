@@ -1,0 +1,16 @@
+.main-heading {
+    text-align: center;
+}
+
+.coloured-section {
+    background: green;
+    color: white;
+}
+
+li:first-child {
+    color: cyan;
+}
+
+.list-removed {
+    text-decoration: line-through;
+}
