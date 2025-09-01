@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.input {
+    border: 2px solid #aaa;
+    padding: .5rem;
+    border-radius: .3em;
+    font-size: 1.75rem;
+    outline: none;
+}
+
+.input:focus-visible {
+    border: 2px solid #0af;
+    box-shadow: 0 0 5px 0 #0af;
+}
+
+.input-success {
+    border-color: green;
+}
+.input.input-success:focus-visible {
+    border: 2px solid green;
+    box-shadow: 0 0 5px 0 green;
+}
+
+.input-error {
+    border-color: red;
+}
+.input.input-error:focus-visible {
+    border: 2px solid red;
+    box-shadow: 0 0 5px 0 red;
+}
+
+.input-large {
+    font-size: 2rem;
+}
+
+.input-small {
+    font-size: 1.25rem;
+}
+
+input:disabled {
+    color: dimgray;
+    background: lightgrey;
+    cursor: not-allowed;
+
+}
