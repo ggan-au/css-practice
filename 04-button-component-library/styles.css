@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    font-size: 1.2rem;
+    background-color: hsl(0, 0%, 90%);
+    border: 1px solid darkgray;
+    border-radius: 0.3em;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px 2px hsl(0, 0%, 85%);
+    background-color: hsl(0, 0%, 85%);
+}
+
+.btn.btn-primary {
+    background-color: hsl(286, 90%, 34%);
+    color: white;
+    border-color: black;
+}
+
+.btn.btn-primary:hover {
+    box-shadow: 0 0 5px 1px hsl(286, 90%, 30%);
+    background-color: hsl(286, 90%, 30%);
+}
+
+.btn.btn-accent {
+    background-color: hsl(196, 89%, 39%);
+    color: white;
+    border-color: black;
+}
+
+.btn.btn-accent:hover {
+    box-shadow: 0 0 5px 1px hsl(196, 89%, 34%);
+    background-color: hsl(196, 89%, 34%);
+}
+
+.btn-danger {
+    background-color: hsl(0, 97%, 43%);
+    color: white;
+    border-color: black;
+}
+
+.btn.btn-danger:hover {
+    box-shadow: 0 0 5px 1px hsl(0, 97%, 38%);
+    background-color: hsl(0, 97%, 38%);
+}
+
+.btn.btn-lg {
+    font-size: 2.25rem;
+}
+
+.btn.btn-sm {
+    font-size: 1rem;
+}
+
+.btn.btn-pill {
+    border-radius: 99999px;
+}
