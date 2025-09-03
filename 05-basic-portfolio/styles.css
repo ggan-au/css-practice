@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: #00aaff;
+    color: white;
+    text-align: center;
+    padding: 1em
+}
+
+.header-title {
+    margin: 0;
+    padding: 1em 0 .5em 0;
+}
+
+.section {
+    padding: 1rem 2rem;
+}
+
+.section-accent {
+    background-color: #00aaff;
+    color: white;
+}
+
+.project-list-item {
+    color: #777;
+    margin-top: 0;
+}
+
+.skills-section {
+    font-style: italic;
+    margin-top: 0;
+}
+
+.section-content {
+    padding-left: 1rem;
+    line-height: 1.5;
+}
+
+.skills-section, .project-section {
+    list-style: none;
+}
+
+.footer {
+    background: #00aaff;
+    font-size: 1.5rem;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+
+.input {
+    border: 1px solid #AAA;
+    border-radius: .2em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    font-size: 1rem;
+    font-family: inherit;
+    line-height: inherit;
+    outline: none;
+}
+
+.input:focus-visible {
+    border-color: #00aaff;
+    box-shadow: 0 0 5px 0 hsl(200, 100%, 50%);
+}
+
+.input-no-resize {
+    resize: none;
+}
+
+.btn {
+    background-color: hsl(200, 100%, 50%);;
+    color: white;
+    padding: .5em 1em;
+    outline: none;
+    border: 1px solid #AAA;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
+    background-color: hsl(200, 100%, 45%);
+    box-shadow: 0 0 5px 0 hsl(200, 100%, 45%);
+}
